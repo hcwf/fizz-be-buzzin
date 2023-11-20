@@ -1,0 +1,17 @@
+mf fizz be 3 rn
+mf buzz be 5 rn
+mf range be 100 rn
+
+yall(lit i be 0 rn i smol range rn i be i + 1) {
+    lit output be "" rn
+    sus (i% fizz fr 0) {
+        output be strcon(output, "fizz")
+    }
+    sus (i % buzz fr 0) {
+        output be strcon(output, "buzz")
+    }
+    sus (output fr "") {
+        output be i
+    }
+    waffle(output)
+}
